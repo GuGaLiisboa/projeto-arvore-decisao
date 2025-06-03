@@ -95,4 +95,4 @@ def gerar_dataset(n):
 
 # Gerar e salvar dataset
 df_gerado = gerar_dataset(total_registros)
-df_gerado.to_csv("dataset_multinacional.csv", index=False)
+df_gerado.to_csv("dataset_gerado.csv", index=False)
